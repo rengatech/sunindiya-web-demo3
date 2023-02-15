@@ -5,22 +5,22 @@
   src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
-}
+}images
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.header-1 {
-  background-image: url('../images/main/main-2.jpg');
-  background-repeat: no-repeat;  
-  background-size: 100% 100%;
+#header-1 {
+  background-image: url("images/main/main-2.jpg");
+    background-position-x: center;
+    background-position-y: center;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .header-1 {
-    background-image: url('../images/main/main-2.jpg');
-    background-repeat: no-repeat;  
-    background-size: 10% 10%;
+  #header-1 {
+    background-image: url(images/main/main-2.jpg);
+    background-position-x: center;
+    background-position-y: center;
   }
 }
 body {
@@ -339,10 +339,18 @@ p {
   background: rgba(0, 0, 0, 0.5);
 }
 
+@media screen and (max-width: 1510px) {
+  #fh5co-header,
+  .fh5co-cover {
+    padding: 3vh 0;
+    background-position: center !important;
+  }
+}
 @media screen and (max-width: 768px) {
   #fh5co-header,
   .fh5co-cover {
     padding: 3vh 0;
+    background-position: center !important;
   }
 }
 #fh5co-header .display-t,
@@ -354,6 +362,7 @@ p {
   #fh5co-header .display-t,
   .fh5co-cover .display-t {
     padding: 3 0;
+   
   }
 }
 #fh5co-header .display-tc,
