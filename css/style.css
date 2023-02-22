@@ -1634,13 +1634,13 @@ p {
 }
 
 .btn-primary {
-  background: #FEC200;
+  background: #ec572c;
   color: #fff;
-  border: 2px solid #FEC200
+  border: 2px solid #ec572c;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #FEC200 !important;
-  border-color: #FEC200!important;
+  background: #ec572c !important;
+  border-color: #ec572c!important;
 }
 .btn-primary.btn-outline {
   -webkit-border-radius: 0px;
@@ -1652,7 +1652,7 @@ p {
   text-transform: uppercase;
   font-size: 14px !important;
   letter-spacing: 1px;
-  border: 2px solid #FEC200;
+  border: 2px solid #ec572c;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
   background: #ea272d;
