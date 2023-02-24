@@ -548,7 +548,7 @@ p {
 #fh5co-featured-menu .fh5co-item, #fh5co-gallery .fh5co-item, #fh5co-reservation-form .fh5co-item {
   float: left;
   width: 100%;
-  background: #fff;
+  /* backround: #fff; */
 }
 #fh5co-featured-menu .fh5co-item.margin_top, #fh5co-gallery .fh5co-item.margin_top, #fh5co-reservation-form .fh5co-item.margin_top {
   margin-top: 150px;
