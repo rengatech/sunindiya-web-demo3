@@ -156,8 +156,8 @@ p {
   background-size: auto;
   /* background: rgba(0, 0, 0, 0.63) url(../images/main/main.jpg) no-repeat cover ; */
   top: -10px;
-  color: #000;
-  background: #320F0D;
+  color: #FFF;
+  background: rgba(0, 0, 0, 0.7);
   border: 0px solid;
   box-shadow: 0px 5px 5px 0px #ffffff1e;
 }
