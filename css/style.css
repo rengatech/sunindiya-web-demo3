@@ -33,6 +33,12 @@ body {
   background: rgba(50, 15, 13);
   
 }
+.logo-content{
+ color: white; 
+ font-size: 26px;
+ margin-left: -10px;
+font-family:Sofia Sans Extra Condensed, sans-serif;
+}
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   body {
     background: rgba(50, 15, 13);
@@ -55,10 +61,16 @@ body {
   margin-top: 10px;
   height: 90px;
   display: flex !important;
-  justify-content: flex-start !important;
-
-  
+  justify-content: flex-start !important;  
  }
+ .logo-content{
+  color: white; 
+  font-size: 20px;
+  font-weight: 550;
+  margin-left: 7px;
+ font-family:Sofia Sans Extra Condensed, sans-serif;
+ }
+
 }
 video {
   object-fit: cover;
@@ -136,7 +148,9 @@ p {
 
 .fh5co-nav {
   position: fixed;
-  width: 100%;
+  font-family:Sofia Sans Extra Condensed, sans-serif;
+  font-size: 46px;
+  /* width: 100%; */
   left: 0;
   right: 0;
   background: transparent;
@@ -157,18 +171,18 @@ p {
   /* background: rgba(0, 0, 0, 0.63) url(../images/main/main.jpg) no-repeat cover ; */
   top: -10px;
   color: #FFF;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   border: 0px solid;
-  box-shadow: 0px 5px 5px 0px #ffffff1e;
+  /* box-shadow: 0px 5px 5px 0px #ffffff1e; */
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .fh5co-nav.scrolled {
-    background: #57302c;
+    background: rgba(0, 0, 0, 0.5);
   }
 }
 @media screen and (max-width: 480px) {
   .fh5co-nav.scrolled {
-    background:#320F0D;
+    background: rgba(0, 0, 0, 0.5);
   }
 }
 .fh5co-nav #fh5co-logo {
@@ -213,7 +227,8 @@ p {
   font-size: 14px;
 }
 .fh5co-nav ul li a {
-  font-size: 17px;
+  font-size: 30px;
+  font-weight: 600;
   padding: 30px 15px;
   color: rgba(255, 255, 255, 0.7);
   -webkit-transition: 0.5s;
@@ -241,10 +256,10 @@ p {
   visibility: hidden;
   opacity: 0;
   position: absolute;
-  top: 40px;
+  top: 50px;
   left: 0;
   text-align: left;
-  background: #993d1c;
+  background: #320F0D;
   padding: 20px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -263,7 +278,7 @@ p {
   width: 0;
   position: absolute;
   pointer-events: none;
-  border-bottom-color: #993d1c;
+  border-bottom-color: #320F0D;
   border-width: 8px;
   margin-left: -8px;
 }
@@ -771,20 +786,14 @@ p {
 #fh5co-content-section,
 #fh5co-contact,
 #fh5co-footer {
-  padding: 10em 0;
+  padding: 1em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-slider,
-  #fh5co-about,
-  #fh5co-wireframe,
-  #fh5co-started,
-  #fh5co-portfolio,
-  #fh5co-blog,
-  #fh5co-content-section,
-  #fh5co-contact,
-  #fh5co-footer {
-    padding: 1em 0;
+  
+  #fh5co-about
+   {
+    padding: 7em 0 !important;
   }
 }
 
