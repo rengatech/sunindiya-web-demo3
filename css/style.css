@@ -537,8 +537,15 @@ p {
 #fh5co-about .img-wrap img {
   margin-bottom: 30px;
 }
+#fh5co-about-1 .img-wrap img {
+  margin-bottom: 30px;
+}
 @media screen and (max-width: 992px) {
   #fh5co-about .img-wrap img {
+    max-width: 100%;
+    height: 100%;
+  }
+  #fh5co-about-1 .img-wrap img {
     max-width: 100%;
     height: 100%;
   }
@@ -789,9 +796,17 @@ p {
   padding: 1em 0;
   clear: both;
 }
+#fh5co-about-1{
+  padding: 4em 0;
+  clear: both;
+}
 @media screen and (max-width: 768px) {
   
   #fh5co-about
+   {
+    padding: 3em 0 !important;
+  }
+  #fh5co-about-1
    {
     padding: 7em 0 !important;
   }
