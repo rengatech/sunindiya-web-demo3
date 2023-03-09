@@ -791,9 +791,12 @@ p {
 #fh5co-portfolio,
 #fh5co-blog,
 #fh5co-content-section,
-#fh5co-contact,
-#fh5co-footer {
+#fh5co-contact {
   padding: 1em 0;
+  clear: both;
+}
+#fh5co-footer {
+  padding: 7em 0;
   clear: both;
 }
 #fh5co-about-1{
