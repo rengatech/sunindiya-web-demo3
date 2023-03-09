@@ -108,13 +108,13 @@ video {
 }
 
 a {
-  color: #ea272d;
+  color: #EC572C;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #ea272d;
+  color: #EC572C;
   outline: none;
   text-decoration: none;
 }
@@ -1021,7 +1021,7 @@ p {
   top: 40px;
   left: 573px;
   margin-left: -21px;
-  background-color: #ea272d;
+  background-color: #EC572C;
   z-index: 100;
 
   -webkit-border-radius: 50%;
