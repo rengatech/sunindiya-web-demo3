@@ -1817,11 +1817,11 @@ p {
 
 .form-control {
   box-shadow: none;
-  background: transparent;
+  /* background: transparent; */
   border: 2px solid rgba(255, 255, 255, 0.3);
   height: 54px;
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 17px;
+  /* font-weight: 300; */
   /* font-family: "Satisfy", cursive; */
   /* color: #fff; */
 }
